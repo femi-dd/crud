@@ -1,0 +1,8 @@
+{
+"env": {
+  "MONGO_ATLAS_DB_USER" : "",
+  "MONGO_ATLAS_DB_PASSWORD": "",
+  "MONGO_ATLAS_DB_NAME": "",
+  "MONGO_ATLAS_CONNECTION_STRING": ""
+}
+}
