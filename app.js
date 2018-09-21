@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 mongoose
   .connect(process.env.MONGO_ATLAS_CONNECTION_STRING, { useNewUrlParser: true })
   .then(() => {
-    console.log(`[Mongoose] : Connected as \'${process.env.MONGO_ATLAS_DB_USER}\'...`);
+    console.log(`[Mongoose] : Connected as '${process.env.MONGO_ATLAS_DB_USER}'...`);
   })
   .catch((error) => {
     console.log(`[Mongoose] : ${error}`);
