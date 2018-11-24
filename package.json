@@ -4,9 +4,10 @@
 	"description": "crud operations with node",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"eslint": "eslint",
-		"dev": "nodemon server.js"
+		"test": "console.log(`No test script found`);",
+		"eslint": "eslint .",
+		"dev": "nodemon server.js",
+		"debug": "node --nolazy --inspect-brk=9229 server.js"
 	},
 	"author": "femi_dd",
 	"license": "ISC",
